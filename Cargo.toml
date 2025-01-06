@@ -43,7 +43,7 @@ watch = ["dep:notify", "dep:crossbeam"]
 realme_macros = { version = "0.2.2", path = "./realme_macros", optional = true }
 thiserror = "2.0"
 serde = { version = "1", features = ["derive"] }
-itertools = { version = "0.13.0" }
+itertools = { version = "0.14.0" }
 tera = { version = "1.19.0", default-features = false, optional = true }
 toml = { version = "0.8.19", optional = true }
 serde_json = { version = "1.0", optional = true }
